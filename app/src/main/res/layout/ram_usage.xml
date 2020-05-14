@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RamUsage"
+    android:orientation="vertical"
+    android:background="@drawable/bginternal">
+
+    <TextView
+        android:id="@+id/batteryLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/memInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+
+</LinearLayout>
+
+<!--RAM USAGE-->
