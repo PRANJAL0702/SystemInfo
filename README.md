@@ -1,0 +1,2 @@
+# SystemInfo
+Android Trial App
